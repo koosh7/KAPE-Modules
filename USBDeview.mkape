@@ -1,0 +1,13 @@
+Description: 'USB Deview'
+Category: USB_Registry
+Author: Douglas Kein (@douglaskein) using usbdeview from nirsoft
+Version: 1
+Id: 5405e8ff-e40f-417c-9c73-224b09ef57ba
+ExportFormat: txt
+FileMask: SYSTEM
+Processors:
+    -
+        Executable: USBDeview.exe
+        CommandLine: /regfile %sourceFile% /stext 
+        ExportFormat: txt
+        ExportFile: usbdevices.txt
