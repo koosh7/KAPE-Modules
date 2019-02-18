@@ -1,0 +1,28 @@
+Description: 'RegRipper: extract registry information'
+Category: Registry_System
+Author: Douglas Kein (@douglaskein) using Harlan Carvey - keydet89 tool
+Version: 1
+Id: 5405e8ff-e40f-497c-9c73-234b09ef57ba
+ExportFormat: txt
+FileMask: ""
+Processors:
+    -
+        Executable: RegRipperSecurity.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: RegRipperSAM.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: RegRipperSYSTEM.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: RegRipperSOFTWARE.mkape
+        CommandLine: ""
+        ExportFormat: ""
+    -
+        Executable: RegRipperNTUSER.mkape
+        CommandLine: ""
+        ExportFormat: ""

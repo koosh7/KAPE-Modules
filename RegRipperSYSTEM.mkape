@@ -1,0 +1,14 @@
+Description: 'RegRipper: extract registry information'
+Category: Registry_System
+Author: Douglas Kein (@douglaskein) using Harlan Carvey - keydet89 tool
+Version: 1
+Id: 5405e8ff-e40f-457c-9c73-224b09ef57ba
+ExportFormat: txt
+FileMask: SYSTEM
+Processors:
+    -
+        Executable: rip.exe
+        CommandLine: -r %sourceFile% -f system 
+        ExportFormat: txt
+        ExportFile: system.txt
+ 

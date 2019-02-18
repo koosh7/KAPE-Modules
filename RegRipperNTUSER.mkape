@@ -1,0 +1,13 @@
+Description: 'RegRipper: extract registry information'
+Category: Registry_System
+Author: Douglas Kein (@douglaskein) using Harlan Carvey - keydet89 tool
+Version: 1
+Id: 5405e8ff-e43f-407c-9c73-224b09ef57ba
+ExportFormat: txt
+FileMask: ntuser.dat
+Processors:
+    -
+        Executable: rip.exe
+        CommandLine: -r %sourceFile% -f ntuser
+        ExportFormat: txt
+        ExportFile: ntuser.txt
