@@ -1,6 +1,6 @@
 Description: 'RegRipper: extract registry information'
-Category: Registry_System
-Author: Douglas Kein (@douglaskein) using Harlan Carvey (keydet89) rip.exe tool
+Category: Registry
+Author: Douglas Kein (@douglaskein) using Harlan Carvey - keydet89 tool
 Version: 1
 Id: 5405e8ff-e40f-497c-9c73-234b09ef57ba
 ExportFormat: txt
