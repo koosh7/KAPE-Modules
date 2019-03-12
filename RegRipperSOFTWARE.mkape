@@ -2,7 +2,8 @@ Description: 'RegRipper: extract registry information'
 Category: Registry
 Author: Douglas Kein (@douglaskein) using Harlan Carvey - keydet89 tool
 Version: 1
-Id: 5405e8ff-e40f-427c-9c73-224b09ef57ba
+Id: 930ccded-3afb-4b08-8515-10fa18968bca
+BinaryUrl: https://github.com/keydet89/RegRipper2.8/archive/master.zip
 ExportFormat: txt
 FileMask: SOFTWARE
 Processors:
